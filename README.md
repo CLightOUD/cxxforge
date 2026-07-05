@@ -567,6 +567,10 @@ cxxforge.ps1 [options] <source-file|project-directory|cxxforge.json> [-- <progra
 
 这些限制是当前稳定架构的一部分，不应在没有交互终端回归测试的情况下“顺手优化”。
 
+## 贡献者
+
+贡献者与协作说明见 [CONTRIBUTORS.md](CONTRIBUTORS.md)。
+
 ## 许可证
 
 CXXForge 使用 [Mozilla Public License 2.0](LICENSE) 发布。
