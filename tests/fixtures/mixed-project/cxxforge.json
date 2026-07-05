@@ -1,0 +1,10 @@
+{
+    "sources": [
+        "src/collision.c",
+        "lib/collision.cpp",
+        "src/main.cpp"
+    ],
+    "outName": "mixed-project",
+    "includes": ["include"],
+    "links": ["-lws2_32"]
+}

@@ -1,0 +1,24 @@
+# C/C++ build outputs
+*.exe
+*.o
+*.obj
+*.d
+*.pdb
+
+# CXXForge incremental state and installer conflict candidates
+.cxxforge/
+*.cxxforge-new
+
+# Local/editor backups
+*.bak
+*~
+
+# Common output directories
+build/
+out/
+tests/.artifacts/
+
+# Local test inputs and accidental environment-path mirrors
+tmptest/
+%SystemDrive%/
+.vscode/

@@ -1,0 +1,35 @@
+{
+    "gccPath": "",
+    "gxxPath": "",
+    "cFlags": ["-std=c99", "-Wall", "-finput-charset=UTF-8", "-fexec-charset=UTF-8"],
+    "cxxFlags": ["-std=c++14", "-Wall", "-finput-charset=UTF-8", "-fexec-charset=UTF-8"],
+    "colorFlag": "-fdiagnostics-color=always",
+    "includePaths": [],
+    "libPaths": [],
+    "linkFlags": [],
+    "injectCompilerBinToPath": true,
+    "forceAsciiTemp": true,
+    "autoDiscoverIncludes": true,
+    "autoDiscoverLibs": true,
+    "compilerBackend": "auto",
+    "clangPath": "",
+    "clangXxPath": "",
+    "activeProfile": "release",
+    "profiles": {
+        "debug": {
+            "cFlags": ["-g", "-O0"],
+            "cxxFlags": ["-g", "-O0"],
+            "defines": ["_DEBUG"]
+        },
+        "release": {
+            "cFlags": ["-O2"],
+            "cxxFlags": ["-O2"],
+            "defines": ["NDEBUG"]
+        },
+        "release-with-debug": {
+            "cFlags": ["-O2", "-g"],
+            "cxxFlags": ["-O2", "-g"],
+            "defines": ["NDEBUG"]
+        }
+    }
+}

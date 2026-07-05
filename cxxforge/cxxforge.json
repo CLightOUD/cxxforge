@@ -1,0 +1,5 @@
+{
+    "sources": ["test.c", "pointertest.c"],
+    "outName": "myproj",
+    "outDir": "build"
+}
